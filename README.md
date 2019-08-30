@@ -1,24 +1,33 @@
-<p align="center">
-  <img width="200" src="https://open-wc.org/hero.png"></img>
-</p>
+# Create a New Astro App (LitElement)
 
-## Open-wc Starter App
+Astro Components are all based on Google’s [LitElement](https://lit-element.polymer-project.org). This starter kit makes use of the [Open WC starter](https://open-wc.org) kit.
 
-[![Built with open-wc recommendations](https://img.shields.io/badge/built%20with-open--wc-blue.svg)](https://github.com/open-wc)
+## Requirements
 
-## Quickstart
+This guide assumes basic familiarity with and installed NodeJS, NPM, Terminal and Git.
 
-To get started:
+## Getting Started
 
-```sh
-npm init @open-wc
-# requires node 10 & npm 6 or higher
+Clone this repository to your local environment
+
+```
+git clone https://bitbucket.org/rocketcom/astro/bootstrap-lit.git
 ```
 
-## Scripts
+Navigate to directory where you cloned the repository
 
-- `start` runs your app for development, reloading on file changes
-- `start:build` runs your app after it has been built using the build command
-- `build` builds your app and outputs it in your `dist` directory
-- `test` runs your test suite with Karma
-- `lint` runs the linter for your project
+Install dependencies 
+
+```
+npm i
+```
+
+Launch the bootstrap app
+
+```
+npm run start
+```
+
+If your default browser does not open launch and navigate to [http://localhost:8080](http://localhost:8080)
+
+The bootstrap initial state is a blank canvas with an Astro Global Status Bar component visible.
