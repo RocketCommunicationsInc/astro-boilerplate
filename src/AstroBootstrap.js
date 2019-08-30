@@ -24,11 +24,6 @@ export class AstroBootstrap extends LitElement {
     };
   }
 
-  constructor() {
-    super();
-    this.appName = 'Astro!';
-  }
-
   render() {
     return html`
       <div class="app-container">
