@@ -4,7 +4,7 @@ import { LitElement, html } from 'lit-element';
 // import { RuxStatus } from '@astrouxds/rux-status';
 // import { RuxButton } from '@astrouxds/rux-button';
 // import { RuxIcon } from '@astrouxds/rux-icon';
-// import { RuxClock } from '@astrouxds/rux-clock';
+import { RuxClock } from '@astrouxds/rux-clock';
 import { RuxGlobalStatusBar } from '@astrouxds/rux-global-status-bar';
 // import { RuxLog } from '@astrouxds/rux-log';
 // import { RuxModal } from '@astrouxds/rux-modal';
@@ -32,7 +32,9 @@ export class AstroBootstrap extends LitElement {
   render() {
     return html`
       <div class="app-container">
-        <rux-global-status-bar appName="Astro Bootstrap"> </rux-global-status-bar>
+        <rux-global-status-bar appName="Astro Bootstrap">
+          <rux-clock></rux-clock>
+        </rux-global-status-bar>
       </div>
     `;
   }

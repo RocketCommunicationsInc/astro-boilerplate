@@ -16,7 +16,7 @@ git clone https://bitbucket.org/rocketcom/astro/bootstrap-lit.git
 
 Navigate to directory where you cloned the repository
 
-Install dependencies 
+Install dependencies
 
 ```
 npm i
@@ -30,4 +30,4 @@ npm run start
 
 If your default browser does not open launch and navigate to [http://localhost:8080](http://localhost:8080)
 
-The bootstrap initial state is a blank canvas with an Astro Global Status Bar component visible.
+The bootstrap initial state is a blank canvas with an Astro Global Status Bar component visible along with the Astro Clock component.
